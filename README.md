@@ -7,3 +7,4 @@ my experience in exercising algorithm
 ### stack
 [min_stack](data_structure/stack/min_stack.py)
 [evaluate_reverse_polish_notation](data_structure/stack/evaluate_reverse_polish_notation.py)
+[decode-string](data_structure/stack/decode-string.py)
