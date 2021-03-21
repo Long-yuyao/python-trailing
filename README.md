@@ -15,3 +15,4 @@ my experience in exercising algorithm
 | :--------------:| :----: |  
 | O(n^2)          | [bublle](algorithm/bubble_sort.py)   [insertion](algorithm/Insertion_sort.py)  [selection](algorithm/Selection_sort.py)|
 | O(nlog(n))      | [merge](algorithm/Merge_sort.py) [heap](algorithm/Heap_sort.py) |
+| O(n)            | [count](algorithm/Counting_sort.py) |     
