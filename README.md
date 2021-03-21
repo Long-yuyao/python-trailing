@@ -14,4 +14,4 @@ my experience in exercising algorithm
 | Time complexity | method |
 | :--------------:| :----: |  
 | O(n^2)          | [bublle](algorithm/bubble_sort.py)   [insertion](algorithm/Insertion_sort.py)  [selection](algorithm/Selection_sort.py)|
-| O(nlog(n))      | [merge](algorithm/Merge_sort.py)|
+| O(nlog(n))      | [merge](algorithm/Merge_sort.py) [heap](algorithm/Heap_sort.py) |
