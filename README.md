@@ -22,4 +22,6 @@ my experience in exercising algorithm
 [shortest_arry](classic/lmin.py)   ***[leetcode](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)***     
 ### greedy programming     
 [prim](algorithm/prim_greedy.py)     
-[creat_list](classic/creat_list.py)   ***[leetcode](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums/)*** 
+[creat_list](classic/creat_list.py)   ***[leetcode](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums/)***    
+### backtracking programming    
+[regular_expressing](classic/regular_expression.py) ***[leetcode](https://leetcode-cn.com/problems/regular-expression-matching/submissions/)***
