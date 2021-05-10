@@ -8,7 +8,7 @@ if a>b, change (a,b)
 class BubbleSort:
     def bubble_sort(self, matrix) -> list:
         for i in range(len(matrix) - 1):
-            for j in range(len(matrix)-i):
+            for j in range(1, len(matrix)-i):
                 if matrix[i] > matrix[i+j]:
                     c = matrix[i+j]
                     matrix[i+j] = matrix[i]
