@@ -1,49 +1,33 @@
+import math
+
+
 class MinStack(object):
 
     def __init__(self):
         self.stack = []
 
-    def push(self, x):
-        """
-        :type x: int
-        :rtype: None
-        """
-        if self.stack:
-            self.stack.append((x, min(x, self.stack[-1][1])))
-        else:
-            self.stack.append((x, x))
+    def push(self, val: int) -> None:
+        m = min(val, self.stack[-1][1]) if self.stack else val
+        self.stack.append([val, m])
 
-    def pop(self):
-        """
-        :rtype: None
-        """
+    def pop(self) -> None:
         self.stack.pop()
 
-    def top(self):
-        """
-        :rtype: int
-        """
-        return self.stack[-1]
+    def top(self) -> int:
+        return self.stack[-1][0]
 
-    """
-    get min in constant time
-    using assistant stack
-    """
-
-    def getMin(self):
-        """
-        :rtype: int
-        """
+    def getMin(self) -> int:
         return self.stack[-1][1]
 
 
 def min_stack_test():
     a = MinStack()
+    a.push(None)
     a.push(0)
-    a.push(-9)
-    a.push(10)
-    a.push(20)
-    assert a.getMin() == -9
+    a.push(1)
+    print(a.getMin())
+    a.pop()
+    print(a.getMin())
 
 
 if __name__ == '__main__':
